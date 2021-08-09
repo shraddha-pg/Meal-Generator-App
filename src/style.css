@@ -106,7 +106,7 @@ h2 {
 h3 {
   font-size: 1.25rem;
   text-align: center;
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 h4 {
   font-size: 0.875rem;
@@ -180,6 +180,7 @@ Menu
 .title {
   text-align: center;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 .underline {
   width: 5rem;
@@ -189,8 +190,10 @@ Menu
   margin-right: auto;
 }
 .btn-container {
+  margin: auto;
   margin-bottom: 4rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .filter-btn {
@@ -226,7 +229,7 @@ Menu
 }
 .photo {
   object-fit: cover;
-  height: 400px;
+  height: 200px;
   border: 0.25rem solid var(--clr-gold);
   border-radius: var(--radius);
 }
@@ -253,7 +256,7 @@ Menu
     max-width: 40rem;
   }
   .photo {
-    height: 175px;
+    height: 170px;
   }
 }
 @media screen and (min-width: 1200px) {
