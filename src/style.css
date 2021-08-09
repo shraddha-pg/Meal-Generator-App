@@ -110,6 +110,7 @@ h3 {
 }
 h4 {
   font-size: 0.875rem;
+  margin-top: 8px;
 }
 p {
   margin-bottom: 1.25rem;
@@ -127,6 +128,7 @@ p {
   }
   h4 {
     font-size: 1rem;
+    margin-top: 10px;
   }
   body {
     font-size: 1rem;
@@ -180,7 +182,6 @@ Menu
 .title {
   text-align: center;
   margin-bottom: 2rem;
-  margin-top: 8px;
 }
 .underline {
   width: 5rem;
@@ -217,6 +218,9 @@ Menu
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
+  /* display: flex;
+  align-items: center;
+  justify-items: center; */
   margin-bottom: 4rem;
   display: flex;
   justify-content: center;
