@@ -180,7 +180,7 @@ Menu
 .title {
   text-align: center;
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 8px;
 }
 .underline {
   width: 5rem;
